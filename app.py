@@ -1,9 +1,9 @@
 from src.edaproject.logger import logging
 from src.edaproject.exception import CustomException
-from src.edaproject.components.data_ingestion import DataIngestion
-from src.edaproject.components.data_ingestion import DataIngestionConfig
-from src.edaproject.components.data_transformation import DataTransformationConfig,DataTransformation
-from src.edaproject.components.model_tranier import ModelTrainerConfig,ModelTrainer
+from src.edaproject.componennts.data_ingestion import DataIngestion
+from src.edaproject.componennts.data_ingestion import DataIngestionConfig
+from src.edaproject.componennts.data_transformation import DataTransformationConfig,DataTransformation
+from src.edaproject.componennts.model_trainer import ModelTrainerConfig,ModelTrainer
 
 import sys
 
